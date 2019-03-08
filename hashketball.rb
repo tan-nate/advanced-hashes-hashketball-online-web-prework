@@ -172,7 +172,7 @@ def big_shoe_rebounds
   
   
   players = game_hash.collect do |team, value|
-    value[:players].keys.flatten
+    value[:players].keys.flatten.flatten
   end
   
   sorted_shoes = shoes.flatten.sort
