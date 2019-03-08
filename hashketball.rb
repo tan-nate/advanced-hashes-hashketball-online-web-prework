@@ -175,7 +175,7 @@ def big_shoe_rebounds
     value[:players].keys
   end
   
-  sorted_shoes = shoes.sort.flatten
+  sorted_shoes = shoes.flatten.sort
   biggest_shoe = sorted_shoes[-1]
   biggest_shoe_index = shoes.index(biggest_shoe)
   binding.pry
