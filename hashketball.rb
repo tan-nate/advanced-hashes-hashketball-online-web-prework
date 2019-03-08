@@ -178,5 +178,6 @@ def big_shoe_rebounds
   biggest_shoe = sorted_shoes[-1]
   biggest_shoe_index = shoes.index(biggest_shoe)
   big_shoe_dude = players[biggest_shoe_index]
+  binding.pry
 end
   
