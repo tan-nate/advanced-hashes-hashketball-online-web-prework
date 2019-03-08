@@ -171,5 +171,5 @@ def big_shoe_rebounds
   end
   
   sorted_shoes = shoes.sort
-  
+  biggest_shoe = sorted_shoes[-1]
   
