@@ -169,6 +169,7 @@ def big_shoe_rebounds
       players[:shoe]
     end
   end
+  binding.pry
   
   players = game_hash.collect do |team, value|
     team[:players].keys
