@@ -182,5 +182,6 @@ def big_shoe_rebounds
   big_shoe_dude = players.flatten[biggest_shoe_index]
   rebounds = player_stats(big_shoe_dude)[:rebounds]
   #binding.pry
+  rebounds
 end
   
