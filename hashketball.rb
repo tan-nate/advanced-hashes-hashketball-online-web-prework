@@ -170,6 +170,8 @@ def big_shoe_rebounds
     end
   end
   
+  players
+  
   sorted_shoes = shoes.sort
   biggest_shoe = sorted_shoes[-1]
   biggest_shoe_index = shoes.index(biggest_shoe)
